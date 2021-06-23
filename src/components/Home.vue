@@ -36,7 +36,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .font-w-200 {
   font-weight: 200;
 }
@@ -49,7 +49,6 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: var(--white-color);
 }
 
 .video-container {
