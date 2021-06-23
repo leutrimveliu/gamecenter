@@ -4,7 +4,7 @@
       <h1>GameCenter</h1>
       <h3 class="font-w-200">Best games for best gamers</h3>
       <div class="games-con">
-        <a class="game" href="#" target="_blank">
+        <a class="game" href="http://localhost:8080/snake/snake/index.html" target="_blank">
           <img src="../assets/snake.svg" alt class="img-game" />
         </a>
       </div>
