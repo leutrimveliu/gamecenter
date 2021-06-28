@@ -8,7 +8,7 @@ function setup() {
   frameRate(frameSpeed)
 console.log('object')
   soundFormats("mp3", "ogg");
-  beep = loadSound("assets/beep.mp3");
+  beep = loadSound("asset/beep.mp3");
 
   pickLocation();
 }
