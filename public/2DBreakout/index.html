@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D BreakOut Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="breakout.ico" />
+</head>
+<body>
+    <div class="sound">
+        <img src="./images/web-01-512.png" alt="" id="sound">
+    </div>
+    <div id="gameover">
+        <img src="images/youwon.png" alt="" id="youwon">
+        <img src="images/gameover.png" alt="" id="youlose">
+        <div id="restart">Play Again!</div>
+    </div>
+    <canvas id="breakout" width="400" height="700"></canvas>
+
+    <script src="./js/component.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+</html>
