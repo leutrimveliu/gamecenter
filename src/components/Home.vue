@@ -10,6 +10,9 @@
         <a class="game" href="http://localhost:8080/2DBreakout/index.html" target="_blank">
           <img src="../assets/breakout.svg" alt class="img-game" />
         </a>
+        <a class="game" href="http://localhost:8080/PingPong/index.html" target="_blank">
+          <img src="../assets/sports.svg" alt class="img-game" />
+        </a>
       </div>
     </div>
     <transition name="fade">
