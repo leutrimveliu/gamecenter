@@ -16,6 +16,9 @@
          <a class="game" href="http://localhost:8080/flappy-bird/index.html" target="_blank">
           <img src="../assets/bird.svg" alt class="img-game" />
           </a>
+          <a class="game" href="http://localhost:8080/InsectCatch/index.html" target="_blank">
+          <img src="../assets/insect.svg" alt class="img-game"/>
+          </a>
       </div>
     </div>
     <transition name="fade">
