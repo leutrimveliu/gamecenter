@@ -1,5 +1,8 @@
 <template>
   <section class="showcase" id="main">
+     <div class="video-container">
+      <video src="../assets/Arcade.mp4" type="video/mp4" autoplay muted loop></video>
+    </div>
     <div class="content">
       <h1>GameCenter</h1>
       <h3 class="font-w-200">Best games for best gamers</h3>
@@ -61,6 +64,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: var(--white-color);
 }
 
 .video-container {
