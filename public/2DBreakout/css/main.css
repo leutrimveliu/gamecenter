@@ -1,0 +1,50 @@
+* {
+  font-family: "Metal Mania", cursive;
+  text-align: center;
+  background-image: url("../images/backgorund.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+body {
+  height: 90vh !important;
+}
+#sound {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 13px;
+  left: 55%;
+}
+#gameover {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  left: 37%;
+}
+#youwon {
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  display: none;
+  background: none;
+}
+#youlose {
+  width: 400px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  display: none;
+  background: none;
+}
+#restart {
+  position: absolute;
+  top: 310px;
+  left: 155px;
+  cursor: pointer;
+  font-size: 1.25em;
+  color: #fff;
+}
