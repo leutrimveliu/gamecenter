@@ -24,30 +24,14 @@
           </a>
       </div>
     </div>
-    <transition name="fade">
-      <div class="logout-btn-con" v-if="show">
-        <button v-if="isEditing" @click="changeTheme" class="btn-auth btn-theme">Color OFF</button>
-        <button v-else @click="changeTheme" class="btn-auth btn-theme">Color ON</button>
-      </div>
-    </transition>
+    
   </section>
 </template>
 
 <script>
 export default {
   name: "Home",
-  data() {
-    return {
-      show: false,
-      isEditing: false
-    };
-  },
-  methods: {
-    changeTheme() {
-      this.isEditing = !this.isEditing;
-      document.body.classList.toggle("grayscale-100");
-    }
-  },
+ 
 };
 </script>
 
@@ -101,73 +85,6 @@ export default {
   z-index: 10;
 }
 
-.auth {
-  position: fixed;
-  top: 15px;
-  right: 20px;
-  width: 225px;
-  height: 60px;
-  padding: 5px;
-  border-radius: 30px;
-  background: var(--white-alpha-3);
-  z-index: 20;
-}
-
-.logout-btn-con {
-  position: fixed;
-  top: 15px;
-  right: 20px;
-  width: 225px;
-  height: 180px;
-  padding: 5px;
-  border-radius: 30px;
-  z-index: 15;
-  background: var(--white-alpha-6);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.btn-auth {
-  border: none;
-  width: 100%;
-  height: 50px;
-  border-radius: 30px;
-  font-size: 1.6em;
-  outline: none;
-}
-
-.btn-theme {
-  margin-bottom: 7px;
-  background: var(--white-alpha-6);
-  color: var(--secondary-color);
-}
-
-.btn-logout {
-  background: var(--btn-red);
-  color: var(--white-color);
-}
-
-.btn-login {
-  background: var(--btn-green);
-  color: var(--white-color);
-}
-
-.user-info-con {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.user-info-con p {
-  user-select: none;
-}
-
-.user-info-con img {
-  width: 50px;
-  border-radius: 50%;
-}
-
 .games-con {
   padding: 20px;
   margin: 10px;
@@ -185,20 +102,6 @@ export default {
   width: 60px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 5px 15px;
-  color: var(--white-color);
-  font-size: 12px;
-  border: 1px var(--white-color) solid;
-  border-radius: 5px;
-  opacity: 0.7;
-  transition: transform 300ms;
-}
-
-.btn:hover {
-  transform: scale(0.9);
-}
 
 .fade-enter-active,
 .fade-leave-active {
@@ -213,8 +116,6 @@ export default {
   .img-game {
     width: 50px;
   }
-  .btn-theme {
-    margin-bottom: 4px;
-  }
+  
 }
 </style>
